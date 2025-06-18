@@ -78,3 +78,24 @@ After downloading the required plugins, enable them by editing your ~/.zshrc fil
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
+2.2 Recommended CLI tools
+
+**fzf**
+
+```
+brew install fzf
+```
+
+Enable key binding
+```
+$(brew --prefix)/opt/fzf/install
+```
+
+Add to ~/.zshrc
+
+```
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.zshrc
+```
+
+**thefuck** **bat** **ripgrep** **autojump** **thefuck**
