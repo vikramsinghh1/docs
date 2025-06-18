@@ -94,7 +94,7 @@ $(brew --prefix)/opt/fzf/install
 Add to ~/.zshrc
 
 ```
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+echo '[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh' >> ~/.zshrc
 source ~/.zshrc
 ```
 
